@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♪ ♫ ♬ THE KRUSTY KRABB PIZZA ♪ ♫ ♬</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/bcac829299.js" crossorigin="anonymous"></script>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+<!-- header section start page -->
+<header class="header">
+ </i> KRUSTY KRABB PIZZA</a>
+
+    <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">days</a>
+        <a href="#">about</a>
+        <a href="#">customers</a>
+        <a href="#">blog</a>
+        <a href="#">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+</header>
+
+
+<!-- home section start -->
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>For you and me, plain pizza</span>
+                <h3>BOGO 25% off!</h3>
+                <a href="#" class="btn">o r d e r</a>
+            </div>
+            <div class="img">
+                <img src="./images/pizza.png">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Kelp-fed Cattle</span>
+                <h3>Bikini Bottom Pepperoni slices!</h3>
+                <a href="#" class="btn">o r d e r</a>
+            </div>
+            <div class="img">
+                <img src="./images/pepperoni.jpg">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Support your</span>
+                <h3>local bikini bottom businesses</h3>
+                <a href="#" class="btn">o r d e r</a>
+            </div>
+            <div class="img">
+                <img src="./images/sign.jpg">
+            </div>
+        </div>
+         </div>
+         <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+         <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+<section class="banner-container">
+    <div class="banner">
+        <img src="./images/squiddeliver.jpg">
+        <div class="content">
+            <span>Delivery</span>
+            <h3>FREE delivery in Bikini Bottom</h3>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="./images/pizzaday.jpg">
+        <div class="content">
+            <span>Limited offer</span>
+            <h3>BOGO Fridays</h3>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="./images/staffday.jpg">
+        <div class="content">
+            <span>Limited offer</span>
+            <h3>Staff promo pizza picks</h3>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="products">
+<h1 class="title"> Krusty Krab<span>Pizzas</span> <a href="#">view all >></a> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/plain.jpg">
+        </div>
+        <div class="content">
+            <h3>Classic Plain</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/margherita.jpg">
+        </div>
+        <div class="content">
+            <h3>Fancy Margherita</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/crab.jpg">
+        </div>
+        <div class="content">
+            <h3>Mystery Crab</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/pepperon.jpg">
+        </div>
+        <div class="content">
+            <h3>Pepperoni</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/mystery.jpg">
+        </div>
+        <div class="content">
+            <h3>Mystery Meat Catch-of-the-day</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/cookityourself.jpg">
+        </div>
+        <div class="content">
+            <h3>Cook it yerself</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/pineapple.jpg">
+        </div>
+        <div class="content">
+            <h3>Pineapple Under The Sea</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="./images/plankton.jpg">
+        </div>
+        <div class="content">
+            <h3>Plankton Pizza</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- about section start -->
+<section class="">
+<h1 class="title"> about <span>us</span> <a href="#">read more >></a> </h1>
+</section>
+<section class="about">
+    <div class="img">
+        <img src="./images/krusty2.jpg">
+    </div>
+
+    <div class="content">
+        <span>WECLOME TO ME PIZZA PARLOR, LADS 'N LASSIES!</span>
+        <h3>THE KRUSTY KRABB PIZZA IS THE PIZZA FOR YOU AND ME</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore farhan aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+            in voluptate </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+             farhan aliqua. Ut enim ad minim veniam, quis</p>
+             <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+
+<!-- client review -->
+<section class="">
+    <h1 class="title"> customer<span>reviews</span> <a href="#">what they're saying...</a> </h1>
+    </section>
+
+    <section class="review" id="review">
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper wrapper">
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/patrick.jpg">
+                        <div class="user-info">
+                            <h3>Patrick</h3>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"I live under a rock, but the Krusty Krab still delivers to me whenever I put in 
+                        an order. Uh, that's about it. I like cheese."</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/squid.jpg">
+                        <div class="user-info">
+                            <h3>Squidward</h3>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"I don't like pizza. Actually, I hate pizza. I really, really, hate pizza. But I want 
+                        a raise and a stupid review will get me one."
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/spongebob.jpg">
+                        <div class="user-info">
+                            <h3>Spongebob</h3>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The Krusty Krab Pizza is the most delicious pizza in the entire sea. Of all of the pizza I've ever had,
+                        this is the most satisfying. A friend sent me something called Domingo, something like that... But this?! This pizza
+                        is real. I love the Krusty Krab, I love my boss, and I love the pizza!"
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/mrcrabs.jpg">
+                        <div class="user-info">
+                            <h3>Eugene Krabs</h3>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"COME ON! Just come and buy some pizza. Ye know yer hungry!"</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+<!-- blog section -->
+
+<section class="blogs">
+    <h1 class="title"> our <span>blogs</span> <a href="#">view all >></a> </h1>
+   
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="img">
+            <img src="./images/eug2.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-calendar"></i> 14 feb, 2022</a>
+                <a href="#" class="fas fa-user"></i> by Eugene Krabs</a>
+            </div>
+            <h3>How to make more money</h3>
+            <p>Listen up mateys, if ye wanna learn my secrets.</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img src="./images/eug2.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-calendar"></i> 14 feb, 2022</a>
+                <a href="#" class="fas fa-user"></i> by Eugene Krabs</a>
+            </div>
+            <h3>How to make more money</h3>
+            <p>Listen up mateys, if ye wanna learn my secrets.</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img src="./images/eug2.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-calendar"></i> 14 feb, 2022</a>
+                <a href="#" class="fas fa-user"></i> by Eugene Krabs</a>
+            </div>
+            <h3>How to make more money</h3>
+            <p>Listen up mateys, if ye wanna learn my secrets.</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- contact section -->
+<section class="">
+    <h1 class="title"> contact <span>us</span> <a href="#">view all >></a> </h1>
+</section>
+
+    <section class="contact">
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Phone number</h3>
+            <p>+123-456-7899</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>E-mail the admins</h3>
+            <p>eugenelovesmoney@krustykrab.bikbot</p>
+            <p>stentacles@krustykrab.bikbot</p>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-map-marker-alt"></i>
+            <h3>Come find us mateys!</h3>
+            <p> 124 Conch Street, Bikini Bottom, Pacific Ocean</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Days</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>About</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Review</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Blog</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my wishlist</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> terms or use</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> policy</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+                <input type="email" placeholder="enter your email address">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img src="./images/money.png" height="100" width="70" class="payments">
+        </div>
+</div>
+</section>
+
+<section class="credit">Created by <span>Kirochka</span></section>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+</html>
